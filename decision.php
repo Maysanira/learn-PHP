@@ -15,20 +15,45 @@
 // $hasil2 = false;
 
 // if dan else
+//operator logika == === > >= < <= !=
 // == digunakan untuk menguji benar atau salah
 // - utnutk variabel
 
-$password = '123';
+// $password = 1233;
+// $password2 = 124;
 
-if($password == '123'){
-    echo 'Anda berhasil masuk!';
-}else{
-    echo 'Gagal! passwordnya salah';
+// if($password == '123'){
+//     echo 'Anda berhasil masuk!';
+// }else{
+//     echo 'Gagal! passwordnya salah';
+// }
+// if($password > $password2){
+//     echo 'password lebih besar';
+// }else{
+//     echo 'password lebih kecil';
+// }
+// if($password != $password2){
+//     echo 'salah password sama';
+// }else{
+//     echo 'benar ..password tidak sama';
+// }
+
+$uang_programmer = 1000;
+$keyboard        = 2000;
+$uang_designer   = 3000;
+
+if($uang_programmer > $keyboard){
+    echo 'dibeli';
+}elseif ($uang_designer > $keyboard) {
+    echo 'dibeli';
 }
-    
+else{
+    echo 'ngga cukup';
+}
+ 
 
 
-
+ 
 ?>
 </body>
 </html>
