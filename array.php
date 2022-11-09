@@ -25,17 +25,25 @@ $angka = ['4','6','8'];
 //shuffle =hasilnya seperti random
 
 //sort = mengurutkan nilai sesuai abjad/angka
-sort($angka);
-print_r($angka);
+//sort($angka);
+//print_r($angka);
 
 //print_r(array_reverse($kotak));
 //shuffle($kotak);
 //print_r($kotak);
 
-
-
 //count = jumlah dari isi array
 //echo count($nama);
+
+//assosiative array
+//key = isi
+$data = array("nama" => "Endah",
+              "umur" => 37, 
+              "kerja" => "iherte");
+
+             //print_r($data);
+$data["nama"] = "Endah Emera";
+            echo "Namanya adalah  ". $data['nama'];
 ?>
     
 </body>
