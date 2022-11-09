@@ -12,15 +12,18 @@
    // for(variabelawal(mulai) ;batas(syarat) ;perubahan)
    //++ artinya bertambah 1
    
-   $buah = ['anggur','semangka','durian','melon'];
+   $buah = ['anggur','semangka','durian','melon','salak'];
    for($a=0; $a < 4; $a++)
    {
     echo "----------------";
     echo $buah [$a];
     echo "---------------<br>";
-
    }
-   
+   foreach($buah as $a){
+    echo "----------------";
+    echo $a;
+    echo "---------------<br>";
+   }
    
    
    
