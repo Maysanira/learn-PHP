@@ -54,10 +54,23 @@ $data2 = array("suami" => "Sharon",
 
 //print_r(array_values($data));
 //print_r(array_keys($data));
-print_r(array_merge($data,$data2));
+//print_r(array_merge($data,$data2));
 
+//multi dimensi array
+$dat = array(
+        array("programmer","21","males"),
+        array("desainer","24","rajin"),
+        array("manager","27","males bingit"),
+);
+/*note : urutan ke kanan maka yg kanan 0
+         urutan ke bawah maka yang kiri 0
 
-
+         00 01 02
+         10 11 12
+         20 21 22
+*/
+$dat[2][0] = "proyek manager";
+echo $dat[2][0];
 
 ?>
     
