@@ -40,10 +40,25 @@ $angka = ['4','6','8'];
 $data = array("nama" => "Endah",
               "umur" => 37, 
               "kerja" => "iherte");
+$data2 = array("suami" => "Sharon",
+              "laptop" => "asus", 
+              "kerja" => "iherte");
+ 
 
              //print_r($data);
-$data["nama"] = "Endah Emera";
-            echo "Namanya adalah  ". $data['nama'];
+//$data["nama"] = "Endah Emera";
+ //           echo "Namanya adalah  ". $data['nama'];
+
+//Multi dimensi array
+//array_values array_keys array_merge
+
+//print_r(array_values($data));
+//print_r(array_keys($data));
+print_r(array_merge($data,$data2));
+
+
+
+
 ?>
     
 </body>
