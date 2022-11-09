@@ -45,17 +45,27 @@ $n123 ="text"; //tdk boleh langsung mulai angka
     //+ - * / % (modulo=sisa hasil pembagian) ++ --
 
     //nama = nilai
-    $angka = $angka + $angka2 + 10;
-
-    echo $angka;
-    
-    
-    //echo $angka + $angka3 * $angka2;
-
+   // $angka = $angka + $angka2 + 10;
+   // echo $angka;
+      ///echo $angka + $angka3 * $angka2;
     //$angka++; 
+
+    //math method
+    //round (membulatkan angka terdekat) 
+    //rand(min, max) --->mengacak angka secara random
+    //max min
+    //echo "Angka hari ini adalah".rand(5,10)   ;
+   // echo "Angka hari ini adalah".min(5,10,6,2,7,8);
+   // echo "Angka hari ini adalah".max(5,10,6,2,7,8);
        
-       
-       ?>
+  $text = "Hai semuanya ";
+  //echo strlen($text);//menghitung ada brp huruf plus spasi
+  //echo str_word_count($text); //menghitung jumlah kata
+  echo str_replace("Hai","halo",$text);
+  echo str_repeat( str_replace("Hai","halo",$text),10);
+  
+  
+  ?>
 </body>
 </html>
 
