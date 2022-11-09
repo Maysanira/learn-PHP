@@ -13,11 +13,29 @@
 <?php
 // Tipe Data ARRAY
 $kotak = array('anjing','kurakura','koala');
-$nama = ['endah','pambud','galuh'];
+$nama = ['endah','pambud','galuh','imut'];
+$angka = ['4','6','8'];
 
 //print_r($kotak);
-echo $nama[2];
+//echo $nama[2];
 
+//--------metode array-------
+//array_unique= mengambil array yg unik
+//array_reverse = membalik array
+//shuffle =hasilnya seperti random
+
+//sort = mengurutkan nilai sesuai abjad/angka
+sort($angka);
+print_r($angka);
+
+//print_r(array_reverse($kotak));
+//shuffle($kotak);
+//print_r($kotak);
+
+
+
+//count = jumlah dari isi array
+//echo count($nama);
 ?>
     
 </body>
