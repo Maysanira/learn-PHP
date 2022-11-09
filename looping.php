@@ -12,10 +12,11 @@
    // for(variabelawal(mulai) ;batas(syarat) ;perubahan)
    //++ artinya bertambah 1
    
-   for($i=0; $i < 8; $i++)
+   $buah = ['anggur','semangka','durian','melon'];
+   for($a=0; $a < 4; $a++)
    {
     echo "----------------";
-    echo "UpoDjiwo";
+    echo $buah [$a];
     echo "---------------<br>";
 
    }
