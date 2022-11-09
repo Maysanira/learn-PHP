@@ -35,10 +35,27 @@ $n123 ="text"; //tdk boleh langsung mulai angka
     //tipe data angka/number
     //1. integer 2.Float
     $angka = 1000;
-    $angka2 = 100.123;
+    $angka2 = 2;
+    $angka3 =3;
 
-    echo $angka + $angka2;
+    //echo "angkanya adalah $angka + $angka2";
         
-        ?>
+
+    //operasi aritmatik
+    //+ - * / % (modulo=sisa hasil pembagian) ++ --
+
+    //nama = nilai
+    $angka = $angka + $angka2 + 10;
+
+    echo $angka;
+    
+    
+    //echo $angka + $angka3 * $angka2;
+
+    //$angka++; 
+       
+       
+       ?>
 </body>
 </html>
+
