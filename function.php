@@ -56,23 +56,38 @@
 // echo "hasil dari penjumlahan".$hasil;
 
 // scope
-$a = 50000;
-$b = 50;
+// $a = 50000;
+// $b = 50;
 
-function menghitung(){
-    $c = $GLOBALS['a'] + $GLOBALS ['b'];
-    return $c;
-}
+// function menghitung(){
+//     $c = $GLOBALS['a'] + $GLOBALS ['b'];
+//     return $c;
+// }
 // echo menghitung();
 
 //anonymous function
 
-$ngetik = function($text){
-    echo $text;
-};
+// $ngetik = function($text){
+//     echo $text;
+// };
 
-$greeting = $ngetik;
-$greeting('selamat datang everibadeh...');
+// $greeting = $ngetik;
+// $greeting('selamat datang everibadeh...');
+ 
+// callback function
+
+function berteriak($callback){
+    echo 'HALOOOOO<br>';
+    $callback();
+}
+
+   $panggil = function(){
+    echo 'saya anonymous, alias ngga punya nama';
+       };
+
+    berteriak($panggil);   
+   
+   
    ?> 
 </body>
 </html>
