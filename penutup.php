@@ -9,7 +9,14 @@
 <body>
     <h1>Belajar PHP</h1>
     <?php
-    echo ' tampilkan';
+    // echos ' tampilkan';
+    // echo print
+    // print_r = hanya menampilkan isi
+    // die = menonaktifkan koding di bawahnya
+    // var_dump = untuk menampilkan jumlah array, tipe data dll
+    
+    $car = ['mobil','motor'];
+    var_dump($car);
     
     ?>
 </body>
