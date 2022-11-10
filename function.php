@@ -46,8 +46,15 @@
    print_text("koding",21);
    jarak();
    print_text("mengemudi",212);
+   jarak();
+//    return fungsi
+function menghitung($x, $y){
+    $z = $x + $y;
+    return $z;
+}
+$hasil = menghitung(3,5) * 100;
+echo "hasil dari penjumlahan".$hasil;
 
-   
    ?> 
 </body>
 </html>
