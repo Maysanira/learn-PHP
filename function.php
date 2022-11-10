@@ -63,7 +63,16 @@ function menghitung(){
     $c = $GLOBALS['a'] + $GLOBALS ['b'];
     return $c;
 }
-echo menghitung();
+// echo menghitung();
+
+//anonymous function
+
+$ngetik = function($text){
+    echo $text;
+};
+
+$greeting = $ngetik;
+$greeting('selamat datang everibadeh...');
    ?> 
 </body>
 </html>
