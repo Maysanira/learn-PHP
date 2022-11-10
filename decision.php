@@ -55,16 +55,34 @@ $uang_designer   = 3000;
 
 // && dan ||  yang berarti atau
 
-if($uang_programmer > $keyboard
-|| $uang_designer > $keyboard){
-    echo 'dibeli';
+// if($uang_programmer > $keyboard
+// || $uang_designer > $keyboard){
+//     echo 'dibeli';
 
-}
-else{
-    echo 'ngga cukup'; 
-}
+// }
+// else{
+//     echo 'ngga cukup'; 
+// }
  
+//switch case
 
+$nama = 'imam';
+
+switch ($nama) {
+    case 'Ermera':
+       echo 'namanya ermera';
+        break;
+    case 'pampam':
+        echo 'namanya pampam';
+        break;
+    case 'galuh':
+        # code...
+        echo 'namanya galuh';
+    
+    default:
+        echo 'tidak ada yang benar';
+        break;
+}
 
  
 ?>
