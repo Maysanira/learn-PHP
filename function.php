@@ -7,13 +7,33 @@
     <title>Belajar PHP</title>
 </head>
 <body>
+    <h1>fungsi PHP</h1>
    <?php
    // fungsi
 
-   function panggil()
+//    function panggil()
+//    {
+//     echo "------------";
+//     echo "UpoDjiwo";
+//     echo "------------";
+//     }
+//    function jarak()
+//    {
+//     echo "<br>";
+//    }
+   
+//    panggil();
+//    jarak();
+//    panggil();
+//    jarak();
+//    panggil();
+
+//Parameter
+   function print_text($text,$angka)
    {
+    $text = 'Gedung' . $text . ' '.$angka;
     echo "------------";
-    echo "UpoDjiwo";
+    echo $text;
     echo "------------";
     }
    function jarak()
@@ -21,11 +41,11 @@
     echo "<br>";
    }
    
-   panggil();
+   print_text("memanah",21);
    jarak();
-   panggil();
+   print_text("koding",21);
    jarak();
-   panggil();
+   print_text("mengemudi",212);
 
    
    ?> 
