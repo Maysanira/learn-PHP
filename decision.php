@@ -42,13 +42,26 @@ $uang_programmer = 1000;
 $keyboard        = 2000;
 $uang_designer   = 3000;
 
-if($uang_programmer > $keyboard){
+// if($uang_programmer > $keyboard){
+//     echo 'dibeli';
+// }elseif ($uang_designer > $keyboard) {
+//     echo 'dibeli';
+// }
+// else{
+//     echo 'ngga cukup'; 
+// }
+
+//True dan False  (boolean)
+
+// && dan ||  yang berarti atau
+
+if($uang_programmer > $keyboard
+|| $uang_designer > $keyboard){
     echo 'dibeli';
-}elseif ($uang_designer > $keyboard) {
-    echo 'dibeli';
+
 }
 else{
-    echo 'ngga cukup';
+    echo 'ngga cukup'; 
 }
  
 
